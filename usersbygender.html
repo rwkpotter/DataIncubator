@@ -1,14 +1,44 @@
 <html>
 	<head>
 		<title>Data Incubator - Ross Potter</title>
+		<link rel="stylesheet" href="styles/layout.css" type="text/css">
+		<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 	</head>
 	<body>
-		<h2>New York City Citi bike: On the road to success?</h2>
-		<h3>A project designed to analyze bike trips made using New York City's Citi bike program.<br>
-			By Ross Potter </h4>
-		<h4>Preliminary data analysis II: Users by Gender</h4>
-		<img src="img/UsersbyGender.png" style="width:600px">
-		<p>This graph illustrates the gender distribution for the users of the New York City Citi Bike program between January 2015 (in red) and January 2016 (in blue). Note that 'unknown' refers to people using the program as customers (rather than full annual subscribers), who are not required to provide their gender. The graph demonstrates an increase in users, of all genders, in the 12 months from January 2015 to January 2016. </p>
-		<p>These data demonstrate that the majority of users are male. This suggests that Citi bike marketing may wish to focus advertising and incentives on women to join the scheme, to maximize the program's growth and revenue.</p>
+		<div class="wrapper row1">
+			<header id="header" class="clear">
+				<div id="hgroup">
+					<h1 style="font-family: sans-serif; margin:10px 0 15px 0;">New York City Citi bike: On the road to success?</h1>
+					<h2 style="font-size: 17px; font-family: sans-serif;">A project designed to analyze bike trips made using New York City's Citi bike program.<br><br>
+					By Ross Potter </h2>
+				</div>
+				 <nav>
+			      	<ul style="font-family: sans-serif;">
+			        	<li><a href="usersbybirthyear.html">Users by Birth Year</a></li>
+			        	<li class="last"><a href="usersbygender.html">Users by Gender</a></li>
+			      	</ul>
+			    </nav>
+			</header>
+		</div>
+		<div class="wrapper row2">
+  			<div id="container" class="clear">
+  				 <section class="clear">
+			      	<figure>
+			      		<h2 style="text-align:center; margin-bottom:15px; font-style:none; color:rgb(51,51,51); font-family: sans-serif;">Preliminary data analysis II: Users by Gender</h2>
+			      		<img src="img/UsersbyGender.png" alt="" style="width:60%; float:left; margin-right:50px;">
+			        	<figcaption style="line-height:1.5; font-size: 16px; color:rgb(130,130,130);">
+			        		<p style="margin-top:60px;">This graph illustrates the gender distribution for the users of the New York City Citi Bike program between January 2015 (in red) and January 2016 (in blue). Note that 'unknown' refers to people using the program as customers (rather than full annual subscribers), who are not required to provide their gender. The graph demonstrates an increase in users, of all genders, in the 12 months from January 2015 to January 2016. </p>
+							<p>These data demonstrate that the majority of users are male. This suggests that Citi bike marketing may wish to focus advertising and incentives on women to join the scheme, to maximize the program's growth and revenue.</p>
+			        	</figcaption>
+			      	</figure>
+			    </section>
+			</div>
+		</div>
+		<div class="wrapper row3">
+		  	<footer id="footer" class="clear">
+			    <p class="fl_left">New York City Citi bike: On the road to success?</p>
+			    <p class="fl_right">By Ross Potter</p>
+		  	</footer>
+		</div>
 	</body>
 </html>
