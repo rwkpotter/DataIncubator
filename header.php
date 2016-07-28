@@ -17,8 +17,8 @@
 				    	<li><a href="usersbybirthyear.php">Users by Birth Year</a></li>
 				    	<li><a href="usersbygender.php">Users by Gender</a></li>
 				    	<li><a href="totaltrips.php">Total Trips</a></li>
-				    	<li><a href="averagetriptime.php">Station Trips</a></li>
-				    	<li><a href="stationtrips.php">Average Trip Times</a></li>
+				    	<li><a href="stationtrips.php">Station Trips</a></li>
+				    	<li><a href="averagetriptime.php">Average Trip Times</a></li>
 				    	<li><a href="stationsbypopularity.php">Station Popularity</a></li>
 				    	<li class="last"><a href="triprevenue.php">Revenue</a></li>
 				  	</ul>
