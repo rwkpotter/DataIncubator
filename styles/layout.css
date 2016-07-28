@@ -83,7 +83,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #header nav{display:block; width:100%; margin:0; padding:20px 0; color:#C0BAB6; background-color:#232323; clear:both;}
 #header nav ul{padding:0 20px;}
-#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li{display:inline; margin-right:15px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
 #header nav li a{color:#C0BAB6; background-color:#232323;}
 #header nav li a:hover{color:#FF9900; background-color:#232323;}
