@@ -7,8 +7,9 @@
 			      		<img src="img/journeysperqtr.png" alt="" style="width:80%; float:none;">
 
 			        	<figcaption style="line-height:1.5; font-size: 16px; color:rgb(130,130,130);">
-			        		<p style="margin-top:5px;">This graph illustrates the gender distribution for the users of the New York City Citi Bike program between January 2015 (in red) and January 2016 (in blue). Note that 'unknown' refers to people using the program as customers (rather than full annual subscribers), who are not required to provide their gender. The graph demonstrates an increase in users, of all genders, in the 12 months from January 2015 to January 2016. </p>
-							<p>These data demonstrate that the majority of users are male. This suggests that Citi bike marketing may wish to focus advertising and incentives on women to join the scheme, to maximize the program's growth and revenue.</p>
+			        		<p style="margin-top:5px;">This graph illustrates the number of journeys taken on the bike scheme per quarter (Q1: Jan-Mar; Q2: Apr-Jun; Q3: Jul-Sep; Q4: Oct-Dec) since its introduction. The total number of journeys is divided by gender - male, female, and those that did not identify.</p>
+							<p>These data demonstrate that the majority of users are male; they account for ~75% of all journeys made. This suggests that Citi bike marketing may wish to focus advertising and incentives on women to join the scheme, to maximize the program's growth and revenue.</p>
+							<p>These data also illustrate the cyclical nature of use, with more journeys in the summer (Q3) compared to the winter (Q1). This suggests that the scheme may want to tailor bike availbility for the season. For example, have less bikes in operation during the winter.</p>
 			        	</figcaption>
 			      	</figure>
 			    </section>
