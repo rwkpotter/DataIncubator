@@ -9,7 +9,7 @@
 			<header id="header" class="clear">
 				<div id="hgroup">
 					<h1 style="font-family: sans-serif; margin:10px 0 15px 0;">New York City Citi bike: On the road to success?</h1>
-					<h2 style="font-size: 17px; font-family: sans-serif;">project designed to analyze bike trips made using New York City's Citi bike program.<br><br>
+					<h2 style="font-size: 17px; font-family: sans-serif;">A project designed to analyze bike trips made using New York City's Citi bike program.<br><br>
 					By Ross Potter </h2>
 				</div>
 				<nav>
