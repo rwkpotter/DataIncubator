@@ -20,6 +20,7 @@
 				    	<li><a href="stationtrips.php">Station Trips</a></li>
 				    	<li><a href="averagetriptime.php">Average Trip Times</a></li>
 				    	<li><a href="stationsbypopularity.php">Station Popularity</a></li>
+				    	<li><a href="routepopularity.php">Route Popularity</a></li>
 				    	<li class="last"><a href="triprevenue.php">Revenue</a></li>
 				  	</ul>
 				</nav>
