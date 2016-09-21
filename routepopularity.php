@@ -9,7 +9,7 @@
 
 			        	<figcaption style="line-height:1.5; font-size: 16px; color:rgb(130,130,130);">
 					        <p style="margin-top:0px; float:none; clear:both; padding-top: 25px;">This interactive map can be used to view the most popular routes on the citi bike network. Popularity is defined here by routes which account for more than 15% of journeys from a given station. The dataset is for the second quarter of 2016. Almost 20% of these routes start and end at the same station. This includes the most popular route - a round trip from the Yankee Ferry Terminal, which accounts for 51% of all journeys made from the terminal. The most popular route, in terms of frequency, was a round trip from Central Park South &amp; 6th Avenue (with 3576 journeys).</p>
-							<p>Quarters are defined as: Q1 - January to March; Q2 - April to June; Q3 - July to September; Q4 - October to December. Starting stations with less than 20 starting journeys were omitted.</p>
+							<p>Quarters are defined as: Q1 - January to March; Q2 - April to June; Q3 - July to September; Q4 - October to December. Starting stations with less than 20 starting journeys were omitted. The distribution of all bike stations for Q2 for 2016 and 2015 can be viewed by clicking on the visible layers tab and making the appropriate selection.</p>
 			        	</figcaption>
 			      	</figure>
 			    </section>
