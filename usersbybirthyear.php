@@ -3,8 +3,16 @@
         <meta charset="utf-8">
         <title>Bokeh Scatter Plots</title>
 
-        <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.css" type="text/css" />
-        <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.js"></script>
+        <link
+    href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.0.min.css"
+    rel="stylesheet" type="text/css">
+
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.js"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.0.min.js"></script>
+
 
         <!-- COPY/PASTE SCRIPT HERE -->
 <script type="text/javascript">
