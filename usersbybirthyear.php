@@ -2,15 +2,13 @@
 		<div class="wrapper row2">
   			<div id="container" class="clear">
   				 <section class="clear">
-			      	<figure>
-			      		<h2 style="text-align:center; margin-bottom:15px; font-style:none; color:rgb(51,51,51); font-family: sans-serif;">Preliminary data analysis I: Users by Birth Years</h2>
-			      		<img src="img/UsersbyBirthYear.png" alt="" style="width:60%; float:left; margin-right:50px;">
+			      	
 
-
-			      		<link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.css" type="text/css" />
+            <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.css" type="text/css" />
         <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.js"></script>
 
-        <script type="text/javascript">
+        <!-- COPY/PASTE SCRIPT HERE -->
+<script type="text/javascript">
     Bokeh.$(function() {
     var docs_json = {"dede47fd-c033-4761-b35f-a4154c0e615c":{"roots":{"references":[{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"5699a3ac-57b6-4c5d-8349-1e0d0a7f3bd4","type":"BoxAnnotation"},{"attributes":{"overlay":{"id":"5699a3ac-57b6-4c5d-8349-1e0d0a7f3bd4","type":"BoxAnnotation"},"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"}},"id":"5e55054d-96e5-47d4-a50f-f7ff252a719b","type":"BoxZoomTool"},{"attributes":{"line_alpha":{"value":0.5},"line_color":{"value":"navy"},"x":{"field":"x"},"y":{"field":"y"}},"id":"2790cfd9-c8b5-471a-9819-913a6cb88c9a","type":"Line"},{"attributes":{"axis_label":"Quarter since operation began","formatter":{"id":"1dad43fe-9451-42ba-a787-78ccbcb7375d","type":"BasicTickFormatter"},"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"},"ticker":{"id":"f8efe080-d213-43cb-b091-27382e5e7bf5","type":"BasicTicker"}},"id":"f5747178-5951-46c2-b31c-76cb280c1267","type":"LinearAxis"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[1,2,3,4,5,6,7,8,9,10,11,12],"y":[24696,36087,9449,21814,32928,32724,8531,21178,35301,45700,19337,36216]}},"id":"8899abcd-1635-4709-9c2c-87cc6fbf7b85","type":"ColumnDataSource"},{"attributes":{"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"}},"id":"dde2c917-9646-4324-bffe-1dee92d2caf2","type":"PanTool"},{"attributes":{"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"}},"id":"24382a50-2022-454b-8147-f9e3dfdf7211","type":"WheelZoomTool"},{"attributes":{"fill_color":{"value":"white"},"line_color":{"value":"navy"},"size":{"units":"screen","value":7},"x":{"field":"x"},"y":{"field":"y"}},"id":"46cabbc7-8bd6-423c-8c05-97e159ade477","type":"Circle"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"dde2c917-9646-4324-bffe-1dee92d2caf2","type":"PanTool"},{"id":"24382a50-2022-454b-8147-f9e3dfdf7211","type":"WheelZoomTool"},{"id":"5e55054d-96e5-47d4-a50f-f7ff252a719b","type":"BoxZoomTool"},{"id":"deadf396-43f7-4e3b-9b98-4890a0f2a275","type":"SaveTool"},{"id":"35cd91ea-0377-4fe6-b236-f03e5349d4b3","type":"ResetTool"},{"id":"d87c72a2-4e31-49ae-8079-ce6138587db5","type":"HelpTool"}]},"id":"9b5cca81-0f2e-4cde-9970-3c063a24cc8d","type":"Toolbar"},{"attributes":{"data_source":{"id":"0fd81f5e-94dd-4fe5-9978-4c0ed291c70a","type":"ColumnDataSource"},"glyph":{"id":"2790cfd9-c8b5-471a-9819-913a6cb88c9a","type":"Line"},"hover_glyph":null,"nonselection_glyph":{"id":"3897de0b-d36b-42dc-99f0-7353602fe43f","type":"Line"},"selection_glyph":null},"id":"b1a62fd6-8fbf-40fc-9d84-2d374650d03b","type":"GlyphRenderer"},{"attributes":{},"id":"1dad43fe-9451-42ba-a787-78ccbcb7375d","type":"BasicTickFormatter"},{"attributes":{},"id":"7c33e02f-e4a0-42b4-b8eb-51f87e754df8","type":"BasicTicker"},{"attributes":{},"id":"eb9fd26e-369c-47b7-bc41-a988d9b9ce75","type":"ToolEvents"},{"attributes":{"data_source":{"id":"8899abcd-1635-4709-9c2c-87cc6fbf7b85","type":"ColumnDataSource"},"glyph":{"id":"46cabbc7-8bd6-423c-8c05-97e159ade477","type":"Circle"},"hover_glyph":null,"nonselection_glyph":{"id":"791dff95-4c9d-4676-bace-4bf369639e40","type":"Circle"},"selection_glyph":null},"id":"387bb07d-b97d-4f7a-a197-c6603b1573f9","type":"GlyphRenderer"},{"attributes":{"axis_label":"Number of journeys","formatter":{"id":"42ad90c1-ae1e-4c9f-ad8f-ba3947f24650","type":"BasicTickFormatter"},"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"},"ticker":{"id":"7c33e02f-e4a0-42b4-b8eb-51f87e754df8","type":"BasicTicker"}},"id":"b3e162d6-fdf6-41de-9897-b67ded52b942","type":"LinearAxis"},{"attributes":{"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"}},"id":"d87c72a2-4e31-49ae-8079-ce6138587db5","type":"HelpTool"},{"attributes":{"plot":null,"text":"NUMBER OF JOURNEYS MADE BY AGE GROUP"},"id":"b6c5ced3-8700-434a-9aae-a9a527bbead1","type":"Title"},{"attributes":{"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"},"ticker":{"id":"f8efe080-d213-43cb-b091-27382e5e7bf5","type":"BasicTicker"}},"id":"fb46e20b-db94-414c-800a-58ec787b3eb8","type":"Grid"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[1,2,3,4,5,6,7,8,9,10,11,12],"y":[24696,36087,9449,21814,32928,32724,8531,21178,35301,45700,19337,36216]}},"id":"0fd81f5e-94dd-4fe5-9978-4c0ed291c70a","type":"ColumnDataSource"},{"attributes":{"callback":null},"id":"0baeb8d1-920c-47d1-8946-d72ba1504316","type":"DataRange1d"},{"attributes":{"callback":null},"id":"baf84172-5360-4254-a906-4ef09980491d","type":"DataRange1d"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"x":{"field":"x"},"y":{"field":"y"}},"id":"3897de0b-d36b-42dc-99f0-7353602fe43f","type":"Line"},{"attributes":{"dimension":1,"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"},"ticker":{"id":"7c33e02f-e4a0-42b4-b8eb-51f87e754df8","type":"BasicTicker"}},"id":"40390a00-c9fe-40ea-95f2-46fa9536d748","type":"Grid"},{"attributes":{},"id":"42ad90c1-ae1e-4c9f-ad8f-ba3947f24650","type":"BasicTickFormatter"},{"attributes":{"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"}},"id":"deadf396-43f7-4e3b-9b98-4890a0f2a275","type":"SaveTool"},{"attributes":{},"id":"f8efe080-d213-43cb-b091-27382e5e7bf5","type":"BasicTicker"},{"attributes":{"below":[{"id":"f5747178-5951-46c2-b31c-76cb280c1267","type":"LinearAxis"}],"left":[{"id":"b3e162d6-fdf6-41de-9897-b67ded52b942","type":"LinearAxis"}],"renderers":[{"id":"f5747178-5951-46c2-b31c-76cb280c1267","type":"LinearAxis"},{"id":"fb46e20b-db94-414c-800a-58ec787b3eb8","type":"Grid"},{"id":"b3e162d6-fdf6-41de-9897-b67ded52b942","type":"LinearAxis"},{"id":"40390a00-c9fe-40ea-95f2-46fa9536d748","type":"Grid"},{"id":"5699a3ac-57b6-4c5d-8349-1e0d0a7f3bd4","type":"BoxAnnotation"},{"id":"b1a62fd6-8fbf-40fc-9d84-2d374650d03b","type":"GlyphRenderer"},{"id":"387bb07d-b97d-4f7a-a197-c6603b1573f9","type":"GlyphRenderer"}],"title":{"id":"b6c5ced3-8700-434a-9aae-a9a527bbead1","type":"Title"},"tool_events":{"id":"eb9fd26e-369c-47b7-bc41-a988d9b9ce75","type":"ToolEvents"},"toolbar":{"id":"9b5cca81-0f2e-4cde-9970-3c063a24cc8d","type":"Toolbar"},"toolbar_location":"below","toolbar_sticky":false,"x_range":{"id":"baf84172-5360-4254-a906-4ef09980491d","type":"DataRange1d"},"y_range":{"id":"0baeb8d1-920c-47d1-8946-d72ba1504316","type":"DataRange1d"}},"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"},{"attributes":{"plot":{"id":"5f6716b1-ebfa-4fab-977c-7ece7159faca","subtype":"Figure","type":"Plot"}},"id":"35cd91ea-0377-4fe6-b236-f03e5349d4b3","type":"ResetTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":7},"x":{"field":"x"},"y":{"field":"y"}},"id":"791dff95-4c9d-4676-bace-4bf369639e40","type":"Circle"}],"root_ids":["5f6716b1-ebfa-4fab-977c-7ece7159faca"]},"title":"Bokeh Application","version":"0.12.1"}};
     var render_items = [{"docid":"dede47fd-c033-4761-b35f-a4154c0e615c","elementid":"e094e8be-c818-446f-8261-395aa3a12bef","modelid":"5f6716b1-ebfa-4fab-977c-7ece7159faca"}];
@@ -18,28 +16,15 @@
     Bokeh.embed.embed_items(docs_json, render_items);
 });
 </script>
-
- <body>
+    </head>
+    <body>
         <!-- INSERT DIVS HERE -->
         <div class="bk-root">
     <div class="plotdiv" id="e094e8be-c818-446f-8261-395aa3a12bef"></div>
 </div>
     </body>
+    </section>
+    </div>
+    </div>
+    </html>
 
-			        	<figcaption style="line-height:1.5; font-size: 16px; color:rgb(130,130,130);">
-					        <p style="margin-top:60px;">This graph illustrates the age distribution (via birth year) for the users of the New York City Citi Bike program between January 2015 (in red) and January 2016 (in blue). The graph demonstrates an increase in users whose birth years are after 1940. Note the anomalous birth years towards the left side of the graph. This demonstrates that subscribers to the bike program do not always give their correct birth year. The graph also demonstrates that most users are born in the mid to late 80s.</p>
-							<p>This initial analysis demonstrates that subscribers do not always give their correct year and birth, and that people born after 2000 are as frequent users as those born in the 1940s. It should also be noted, that this analysis does not account for subscribers who access bikes more than once, as this data is not provided in the publicly available data set. </p>
-							<p>This suggests that Citi bike marketing may wish to focus advertising and incentives for younger people (those born after 2000) to use the scheme, to maximize the program's growth and revenues</p>
-			        	</figcaption>
-			      	</figure>
-			    </section>
-			</div>
-		</div>
-		<div class="wrapper row3">
-		  	<footer id="footer" class="clear">
-			    <p class="fl_left">New York City Citi bike: On the road to success?</p>
-			    <p class="fl_right">By Ross Potter</p>
-		  	</footer>
-		</div>
-	</body>
-</html>
