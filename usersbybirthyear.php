@@ -1,10 +1,9 @@
 <?php include_once('header.php'); ?>
-		<div class="wrapper row2">
-  			<div id="container" class="clear">
-  				 <section class="clear">
-			      	
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Scatter Plots</title>
 
-            <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.css" type="text/css" />
+        <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.css" type="text/css" />
         <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.js"></script>
 
         <!-- COPY/PASTE SCRIPT HERE -->
@@ -23,8 +22,4 @@
     <div class="plotdiv" id="e094e8be-c818-446f-8261-395aa3a12bef"></div>
 </div>
     </body>
-    </section>
-    </div>
-    </div>
-    </html>
-
+</html>
