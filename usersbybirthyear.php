@@ -5,18 +5,20 @@
 			      	<figure>
 			      		<h2 style="text-align:center; margin-bottom:15px; font-style:none; color:rgb(51,51,51); font-family: sans-serif;">Preliminary data analysis I: Users by Birth Years</h2>
 			      		<!--<img src="img/UsersbyBirthYear.png" alt="" style="width:60%; float:left; margin-right:50px;">-->
+ <div class="bk-root">
+    <div class="plotdiv" id="6967b531-ba0b-4716-8624-9f7c47dafe31"></div>
+</div>
+					      		<link
+		    href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.1.min.css"
+		    rel="stylesheet" type="text/css">
+		<link
+		    href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.1.min.css"
+		    rel="stylesheet" type="text/css">
 
-			      		<link
-    href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.1.min.css"
-    rel="stylesheet" type="text/css">
-<link
-    href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.1.min.css"
-    rel="stylesheet" type="text/css">
+		<script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.1.min.js"></script>
+		<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.1.min.js"></script>
 
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.1.min.js"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.1.min.js"></script>
-
-       
+		       
 
 
         <!-- COPY/PASTE SCRIPT HERE -->
@@ -42,9 +44,7 @@
 			</div>
 		</div>
 
-		 <div class="bk-root">
-    <div class="plotdiv" id="6967b531-ba0b-4716-8624-9f7c47dafe31"></div>
-</div>
+		
 
 		<div class="wrapper row3">
 		  	<footer id="footer" class="clear">
