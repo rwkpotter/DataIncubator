@@ -3,15 +3,17 @@
         <meta charset="utf-8">
         <title>Bokeh Scatter Plots</title>
 
-        <link
-    href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.css"
+<link
+    href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.1.min.css"
     rel="stylesheet" type="text/css">
 <link
-    href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.0.min.css"
+    href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.1.min.css"
     rel="stylesheet" type="text/css">
 
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.js"></script>
-<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.0.min.js"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.1.min.js"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.1.min.js"></script>
+
+       
 
 
         <!-- COPY/PASTE SCRIPT HERE -->
