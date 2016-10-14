@@ -43,7 +43,7 @@
     <div class="plotdiv" id="6967b531-ba0b-4716-8624-9f7c47dafe31"></div>
 </div>
 
-<!--below is for bike and stations plot######
+<!--below is for bike and stations plot######-->
 <div class="bk-root">
     <div class="plotdiv" id="561b7733-3fc0-458a-b6bc-5cd19e375119"></div>
 </div>
